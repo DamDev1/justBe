@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navBar {
+  background: white;
+  padding: 1em;
+}
+
+.navBar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.4em;
+  color: black;
+}
+
+.navBar .logo span {
+  color: #007af3;
+}
+
+.navBar .togle {
+  font-size: 25px;
+  color: black;
+}
+
+.nav {
+  display: none;
+}
+
+.navBar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.left-side p {
+  color: gray;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+.left-side h1 {
+  font-size: 2.5em;
+}
+
+.hero-cta .primary-cta {
+  background-color: #007af3;
+  color: white;
+  padding: .6em 1.3em;
+  border-radius: 6em;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.hero-cta .watchVideo {
+  display: block;
+  color: black;
+  font-size: 1.4em;
+  margin-top: 2em;
+}
+
+.hero-cta .watchVideo .fa-video-camera {
+  margin-right: 0.5em;
+}
+
+.heroImg {
+  margin-top: 2em;
+  width: 70%;
+}
+
+.features-section {
+  background: #20272e;
+  color: white;
+}
+
+.features-ul {
+  margin: 0;
+  padding-left: 1em;
+}
+
+.features-ul li {
+  font-size: 1.1em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+.featureImg {
+  width: 100%;
+  margin-top: 2em;
+}
+
+.testimoner-sectoion {
+  background: #007af3;
+}
+
+.testimoner-sectoion .testimoner-ul li {
+  background: #006bd6;
+  text-align: center;
+  list-style-type: none;
+  margin: 0 auto 5em auto;
+  padding: 2em 1em;
+  color: white;
+  border-radius: 0.8em;
+  width: 80%;
+}
+
+.testimoner-sectoion .testimoner-ul li img {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  border: 10px solid #006bd6;
+  margin-top: -4.5em;
+}
+
+.contact-left h1 {
+  font-size: 2em;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+}
+
+input, textarea {
+  width: 100%;
+  padding: .8em;
+  margin-bottom: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.5em;
+  border: 2px solid gray;
+}
+
+.submit {
+  font-weight: bold;
+  font-size: 1.3em;
+  border: none;
+  display: inline-block;
+  color: white;
+  background: #007af3;
+  padding: .8em 2em;
+  border: 5em;
+  margin-bottom: 5em;
+  width: unset;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
